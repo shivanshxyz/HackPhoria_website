@@ -25,6 +25,43 @@
 	<link rel="manifest" href="/manifest.json">
 	<meta name="theme-color" content="#050B22" />
 
+
+
+	<style>
+	
+	#devfolio-apply-now {
+    -ms-flex-align: center;
+    -webkit-box-align: center;
+    align-items: center;
+    background-color: #3770FF;
+    border-radius: 3px;
+    border: none;
+    color: #FFFFFF;
+    cursor: pointer;
+    display: -ms-flexbox;
+    display: -webkit-box;
+    display: flex;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol';
+    font-size: 18px;
+    font-weight: 600;
+    padding: 12px 20px;
+    text-align: center;
+    text-transform: lowercase;
+}
+
+#devfolio-apply-now:not([disabled]) {
+    cursor: pointer;
+}
+
+#devfolio-apply-now:hover {
+    background-color: #2954BF !important;
+}
+	
+	
+	
+	
+	</style>
+
 </head>
 
 <body>
@@ -32,7 +69,7 @@
 		<div class="container">
 			<div id="logo" class="pull-left">
 				<a href="#intro" class="scrollto">
-					<img src="img/logo@2x.png" alt="" title="">
+					<img src="img/logo@2x.png" alt="" title="" >
 				</a>
 			</div>
 			<nav id="nav-menu-container">
@@ -47,36 +84,64 @@
 					</li>
 					<li><a href="#supporters">Sponsors</a>
 					</li>
-					<li><a href="#contact">Contact</a>
+					<li><a href="#footer">Contact</a>
 					</li>
 				</ul>
 			</nav>
 		</div>
 	</header>
 
-	<section id="intro">
+	<section id="intro" >
 		<canvas></canvas>
-		<div class="intro-container wow fadeIn"> <h3 class="HackPhoria">IEEE Bennett Chapter Presents </h3><br>
-			<img src="img/logo.png"><br>
-			<p class="mb-4 pb-0">0-0 January | Bennett University</p>
+		
+		<div class="intro-container wow fadeIn"><img src="img/ieeelogon.png" alt="" class="img-fluid" style="width:200px" >  <br> <span class="HackPhoria">in collaboration with</span>  <br> <img src="img/technotix.jpeg" alt="" class="img-fluid" style="height:100px" > <br>  <h5 ><span class="HackPhoria ">presents </span></h5><br>
+			<br>
+			<img src="img/logo.png" class="img-fluid" >
+			<p class="mb-4 pb-0">14-15 Feb | Bennett University</p>
 		</div>
 	</section>
+	
 	<main id="main">
 		<section id="about">
 			<div class="container">
 				<div class="row">
 					<div class="col-lg-6">
 						<h2>About</h2>
-						<p>Koi description dedo</p>
+						<p>HackPhoria is a sole Hackathon, with its motto of #CelebratingTechnology
+							 commemorates the view of jollification with the advancing technology. HackPhoria aims 
+							 to bestow the students and upcoming entrepreneurs with a platform to surpass their limits of creativity and skills by propounding their ideas to solve real-world problems. In collaboration with the institute’s cultural fest, 
+							we plan to celebrate this event with the country’s best minds.</p>
 					</div>
-					<div class="col-lg-3">
-						<h3>Where</h3>
-						<p>Bennett University</p>
+					<div class="col-lg-6">
+						
+						<div style="clear: both">
+							<h3 style="float: left">Where</h3>
+							<h3 style="float: right">When</h3>
+						</div>
+						<hr />
+						 
+						<div style="clear: both">
+							<p style="float: left">Bennett University </p>
+							<p style="float: right">14-15 feb 2020</p>
+						</div>
+						<hr />
+						
+						<br>
+						<br>
+						
+
+						<div >
+<button id="devfolio-apply-now" style="margin: auto;"><svg class="logo" xmlns="http://www.w3.org/2000/svg" fill="#fff"viewBox="0 0 115.46 123.46" style="height:24px;width:24px;margin-right:8px"><path d="M115.46 68a55.43 55.43 0 0 1-50.85 55.11S28.12 124 16 123a12.6 12.6 0 0 1-10.09-7.5 15.85 15.85 0 0 0 5.36 1.5c4 .34 10.72.51 20.13.51 13.82 0 28.84-.38 29-.38h.26a60.14 60.14 0 0 0 54.72-52.47c.05 1.05.08 2.18.08 3.34z" /><path d="M110.93 55.87A55.43 55.43 0 0 1 60.08 111s-36.48.92-48.58-.12C5 110.29.15 104.22 0 97.52l.2-83.84C.38 7 5.26.94 11.76.41c12.11-1 48.59.12 48.59.12a55.41 55.41 0 0 1 50.58 55.34z"/></svg>Apply with Devfolio</button>
+						</div>
+						
+
 					</div>
-					<div class="col-lg-3">
-						<h3>When</h3>
-						<p>0-0 January 2020/p>
-					</div>
+					
+
+
+					
+
+					
 				</div>
 			</div>
 		</section>
@@ -125,8 +190,14 @@
 				<div class="section-header">
 					<h2>Sponsors</h2>
 				</div>
+			</div>	
+				<div class="supporter-logo">
+					<img src="img/devfolio.png" alt="">
+					<img src="img/matic.png" alt="" class="img-fluid" style="width:250px">
+				</div>
 
-			</div>
+
+			
 		</section>
 
 		<section id="faq" class="wow fadeInUp">
@@ -139,12 +210,12 @@
 						<ul id="faq-list">
 							<li> <a data-toggle="collapse" class="collapsed" href="#faq1">What is the eligibility criteria?<i class="fa fa-minus-circle"></i></a>
 								<div id="faq1" class="collapse" data-parent="#faq-list">
-									<p>A team should consist of undergraduates and/or school students from grades 11th/12th. At most 4 members are allowed in a team. Lone wolves are welcome too.</p>
+									<p>A team should consist of undergraduates and/or school students from grades 11th/12th. A Team can have atmost 4 members and minimum 2</p>
 								</div>
 							</li>
 							<li> <a data-toggle="collapse" href="#faq2" class="collapsed">How much is the cost for attending?<i class="fa fa-minus-circle"></i></a>
 								<div id="faq2" class="collapse" data-parent="#faq-list">
-									<p>This event is completely free! We’ll provide you with a plethora of resources and tools to hack with.</p>
+									<p>This event is completely free! </p>
 								</div>
 							</li>
 							<li> <a data-toggle="collapse" href="#faq3" class="collapsed">What should I bring to the event?<i class="fa fa-minus-circle"></i></a>
@@ -152,6 +223,13 @@
 									<p>You need to carry your college/school ID Card, laptop, phone, chargers, any sleeping equipment you might want and a geeky t-shirt!</p>
 								</div>
 							</li>
+							<li> <a data-toggle="collapse" href="#faq3" class="collapsed">What should I bring to the event?<i class="fa fa-minus-circle"></i></a>
+								<div id="faq3" class="collapse" data-parent="#faq-list">
+									<p>You need to carry your college/school ID Card, laptop, phone, chargers, any sleeping equipment you might want and a geeky t-shirt!</p>
+								</div>
+							</li>
+							
+
 							</ul>
 					</div>
 				</div>
@@ -163,19 +241,33 @@
 			<div class="container">
 				<div class="row">
 					<div class="col-lg-4 col-md-6 footer-info">
-						<img src="img/logo.png" alt="TheEvenet">
-						<p style="padding-top: 10px;">Add some description here</p>
+						<img src="img/ieeelogon.png" alt="TheEvenet">
+						<p style="padding-top: 10px;">IEEE BU is a student-led branch advancing to create a worldly atmosphere to help and promote people aiming to bring a change in the world of technology. We endeavor to trigger the idea of development by providing opportunities and conducting events for posse of the deserved ones. IEEE BU is a congregation of committed students resolute to deliver pre-eminent opportunities 
+							to every curious student in and around Bennett University.</p>
 					</div>
-					<div class="col-lg-4 col-md-6 footer-links">
 
+					<div class="col-lg-4 col-md-6 footer-info">
+						<img src="img/technotix.jpeg" alt="TheEvenet">
+						<p style="padding-top: 10px;">Technotix is a student-led club that works towards developing a community of excited learners in the field of Robotics-related technology. The Club provides a place where all students, especially those with an inclination for technology, can thrive.
+
+							The club caters to the interests of hobbyists and beginners in robotics and extends support for participation in robotics-related competitions that are held all over the country.
+							
+							The club's intent is to inspire young minds to be the driving force in the field of robotics, by engaging them in exciting, mentor-based programs that build engineering skills, inspire innovation, and foster well-rounded life capabilities including self-confidence, communication and leadership.</p>
 					</div>
+					
 					<div class="col-lg-4 col-md-6 footer-contact">
-						<h4>Address</h4>
-						<p>Bennett University<br>
-							Plot Nos 8-11, TechZone 2,<br> Greater Noida, Uttar Pradesh 201310
+						<h4>Contact us</h4>
+						<p class="text-primary">Aachman garg :9814671140
+							<br>
+							Mohit bhat: 8826316926
+							<br>
+							Emails: ieee@bennett.edu.in , hackphoria@gmail.com
+
+
+							
 						</p>
-						<div class="social-links"> <a href="https://www.facebook.com/" class="facebook"><i class="fa fa-facebook"></i></a>
-							<a href="https://www.instagram.com/" class="instagram"><i class="fa fa-instagram"></i></a>
+						<div class="social-links"> <a href="https://www.twitter.com/IEEE_BU" class="twitter"><i class="fa fa-twitter"></i></a>
+							<a href="https://www.instagram.com/ieee_bu" class="instagram"><i class="fa fa-instagram"></i></a>
 						</div>
 					</div>
 				</div>
@@ -195,6 +287,34 @@
 	<script src="lib/owlcarousel/owl.carousel.min.js"></script>
 	<script src="lib/canvas/bg-anim.js"></script>
 	<script src="js/main.js"></script>
+   
+	<script>
+	
+	document.addEventListener('DOMContentLoaded', function () {
+    let devfolioOptions = {
+        buttonSelector: '#devfolio-apply-now',
+        key: 'myhackathonkey',
+    }
+
+    let script = document.createElement('script');
+    script.src = "https://apply.devfolio.co";
+    document.head.append(script);
+
+    script.onload = function () {
+        new Devfolio(devfolioOptions);
+    }
+
+    script.onerror = function () {
+        document.querySelector(devfolioOptions.buttonSelector).addEventListener('click', function () {
+            window.location.href = 'https://devfolio.co/external-apply/' + devfolioOptions.key;
+        });
+    }
+});
+	
+	
+	</script>
+
+
 </body>
 
 </html>
